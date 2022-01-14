@@ -75,7 +75,7 @@ header {
   border-radius: 0px 4px 4px 0px;
 }
  #areaSearch{
-   width:100%;
+   width:100vw;
    height:var(--vh-area-search);
    display:flex;
    flex-direction: column;
