@@ -74,39 +74,25 @@ header {
   z-index: 67;
   border-radius: 0px 4px 4px 0px;
 }
+footer{
+   width:100vw;
+   height:var(--vh-header);
+   background:#0F3057;
+   color:white;
+   text-align: center;
+   line-height: var(--vh-header);
+ }
+ 
 
 @media (max-width: 900px){
  
- #areaSearch{
-   width:100%;
-   height:var(--vh-area-search);
-   display:flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   background:#00587A;
-   color:#fff;
-   padding:15px;
-   
- }
- #areaSearch h1{
-   color:gold;
-   font-size: 18pt;
+footer{
+   width:100vw;
+   height:var(--vh-header);
+   background:#0F3057;
+   color:white;
    text-align: center;
-   
- }
- #areaSearch h2{
-   font-weight: 400;
-   font-size: 12pt;
-   text-align: center;
-   
- }
- #showData{
- 
-   width:60vw;
-   height:35%;
-   
-   
+   line-height: var(--vh-header);
  }
  
  footer{
