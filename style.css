@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+:root{
+  
+  --corLogo: #008891;
+  --fontSecular:'Secular One', sans-serif;
+   
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html, body{
+  height:100%;
+ 
+}
+header {
+  height: var(--vh-header) ;
+  width: 100vw;
+  background: #0F3057;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-family: var(--fontSecular);
+}
+#teal{
+  color: #008891;
+  margin-left: -5px;
+}
+#grid{
+  width:100vw;
+  min-height:100%;
+  
+}
+#logo{
+  color: #FFF;
+  display:flex;
+  align-items: center;
+  gap: 5px;
+}
+#inputSearch{
+  
+  width:90%;
+  height:50px;
+  border:none;
+  outline: none;
+  padding:10px;
+  font-weight: 500;
+  margin:15px 0 ;
+  border-radius:4px 0px 0px 4px;
+  
+}
+
+#campoBusca{
+ 
+  display:flex;
+  align-items: center;
+  
+}
+#campoBusca input{
+  margin-left: 11px;
+}
+.lupa{
+ 
+
+  
+  width:50px;
+  height:50px;
+  background: yellow;
+  z-index: 67;
+  border-radius: 0px 4px 4px 0px;
+}
+
+@media (max-width: 900px){
+ 
+ #areaSearch{
+   width:100%;
+   height:var(--vh-area-search);
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background:#00587A;
+   color:#fff;
+   padding:15px;
+   
+ }
+ #areaSearch h1{
+   color:gold;
+   font-size: 18pt;
+   text-align: center;
+   
+ }
+ #areaSearch h2{
+   font-weight: 400;
+   font-size: 12pt;
+   text-align: center;
+   
+ }
+ #showData{
+ 
+   width:60vw;
+   height:35%;
+   
+   
+ }
+ 
+ footer{
+   width:100vw;
+   height:var(--vh-header);
+   background:#0F3057;
+   color:white;
+   text-align: center;
+   line-height: var(--vh-header);
+ }
+ 
+
+}
